@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D5E323002E56CD0F007B1088 /* ShimaenagaGameCore in Frameworks */ = {isa = PBXBuildFile; productRef = D5E322FF2E56CD0F007B1088 /* ShimaenagaGameCore */; };
+		D5E323022E56CD18007B1088 /* ShimaenagaGameCore in Frameworks */ = {isa = PBXBuildFile; productRef = D5E323012E56CD18007B1088 /* ShimaenagaGameCore */; };
+		D5E323042E56CD1F007B1088 /* ShimaenagaGameCore in Frameworks */ = {isa = PBXBuildFile; productRef = D5E323032E56CD1F007B1088 /* ShimaenagaGameCore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D5E322D12E568FDF007B1088 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +33,7 @@
 		D5E322C12E568FDD007B1088 /* ShimaenagaPetGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShimaenagaPetGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5E322D02E568FDF007B1088 /* ShimaenagaPetGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShimaenagaPetGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5E322DA2E568FDF007B1088 /* ShimaenagaPetGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShimaenagaPetGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E322FD2E56CC66007B1088 /* ShimaenagaGameCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ShimaenagaGameCore; path = ../ShimaenagaGameCore; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5E323002E56CD0F007B1088 /* ShimaenagaGameCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5E323022E56CD18007B1088 /* ShimaenagaGameCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5E323042E56CD1F007B1088 /* ShimaenagaGameCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +89,8 @@
 				D5E322D32E568FDF007B1088 /* ShimaenagaPetGameTests */,
 				D5E322DD2E568FDF007B1088 /* ShimaenagaPetGameUITests */,
 				D5E322C22E568FDD007B1088 /* Products */,
+				D5E322FD2E56CC66007B1088 /* ShimaenagaGameCore */,
+				D5E322FE2E56CD0F007B1088 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +102,13 @@
 				D5E322DA2E568FDF007B1088 /* ShimaenagaPetGameUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D5E322FE2E56CD0F007B1088 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +131,7 @@
 			);
 			name = ShimaenagaPetGame;
 			packageProductDependencies = (
+				D5E322FF2E56CD0F007B1088 /* ShimaenagaGameCore */,
 			);
 			productName = ShimaenagaPetGame;
 			productReference = D5E322C12E568FDD007B1088 /* ShimaenagaPetGame.app */;
@@ -135,6 +155,7 @@
 			);
 			name = ShimaenagaPetGameTests;
 			packageProductDependencies = (
+				D5E323012E56CD18007B1088 /* ShimaenagaGameCore */,
 			);
 			productName = ShimaenagaPetGameTests;
 			productReference = D5E322D02E568FDF007B1088 /* ShimaenagaPetGameTests.xctest */;
@@ -158,6 +179,7 @@
 			);
 			name = ShimaenagaPetGameUITests;
 			packageProductDependencies = (
+				D5E323032E56CD1F007B1088 /* ShimaenagaGameCore */,
 			);
 			productName = ShimaenagaPetGameUITests;
 			productReference = D5E322DA2E568FDF007B1088 /* ShimaenagaPetGameUITests.xctest */;
@@ -558,6 +580,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D5E322FF2E56CD0F007B1088 /* ShimaenagaGameCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ShimaenagaGameCore;
+		};
+		D5E323012E56CD18007B1088 /* ShimaenagaGameCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ShimaenagaGameCore;
+		};
+		D5E323032E56CD1F007B1088 /* ShimaenagaGameCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ShimaenagaGameCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D5E322B92E568FDD007B1088 /* Project object */;
 }

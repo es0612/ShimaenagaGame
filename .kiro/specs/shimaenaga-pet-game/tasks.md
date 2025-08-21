@@ -1,10 +1,10 @@
 # Implementation Plan
 
-- [ ] 1. プロジェクト基盤とSPMパッケージ構造の設定
-  - Xcodeプロジェクトの作成とiOS 17.0ターゲット設定
-  - ShimaenagaGameCoreローカルSPMパッケージの作成と設定
-  - Package.swiftの設定とSwiftTestingの依存関係追加
-  - 基本的なフォルダ構造とファイル配置の実装
+- [x] 1. プロジェクト基盤とSPMパッケージ構造の設定
+  - [x] Xcodeプロジェクトの作成とiOS 17.0ターゲット設定
+  - [x] ShimaenagaGameCoreローカルSPMパッケージの作成と設定
+  - [x] Package.swiftの設定とSwiftTestingの依存関係追加
+  - [x] 基本的なフォルダ構造とファイル配置の実装
   - _Requirements: 6.2, 6.3_
 
 - [ ] 2. コアデータモデルの実装（TDD）
