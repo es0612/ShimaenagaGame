@@ -7,22 +7,22 @@
   - [x] 基本的なフォルダ構造とファイル配置の実装
   - _Requirements: 6.2, 6.3_
 
-- [ ] 2. コアデータモデルの実装（TDD）
-  - [ ] 2.1 ShimaenagaPetモデルの基本構造実装
+- [x] 2. コアデータモデルの実装（TDD）
+  - [x] 2.1 ShimaenagaPetモデルの基本構造実装
     - ShimaenagaPet構造体の定義（Codable, Sendable準拠）
     - GrowthStage列挙型の実装
     - 基本プロパティ（name, growthStage, status levels）の定義
     - SwiftTestingを使用した単体テストの作成
     - _Requirements: 1.1, 1.4, 4.1_
 
-  - [ ] 2.2 ゲームロジック基盤クラスの実装
+  - [x] 2.2 ゲームロジック基盤クラスの実装
     - GameLogic構造体の作成
     - feedPet, playWithPet, updatePetStatusメソッドの実装
     - 時間ベースのステータス減衰ロジックの実装
     - 各メソッドに対するSwiftTestingテストの作成
     - _Requirements: 2.1, 2.2, 2.3, 3.1, 3.3_
 
-  - [ ] 2.3 成長システムとビジネスルールの実装
+  - [x] 2.3 成長システムとビジネスルールの実装
     - GrowthRules構造体の実装
     - 成長条件判定ロジック（時間、ステータス要件）の実装
     - canPetGrowメソッドとgrowPetメソッドの実装
